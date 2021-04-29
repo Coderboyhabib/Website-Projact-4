@@ -1,0 +1,421 @@
+/*
+span {
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Calistoga', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+*/
+
+/*==============================*/
+/*        NAVBAR SECTION        */
+/*==============================*/
+.navbar .nav-item .nav-link {
+    font-size: 23px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 10px;
+}
+
+/*==============================*/
+/*         HOME SECTION         */
+/*==============================*/
+
+#home_section {
+    background: url(../img/home_page.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+#home_section .Home_contant {
+    margin-top: 150px;
+}
+
+#home_section .Home_contant h1 {
+    font-weight: 700;
+    font-family: 'Archivo', sans-serif;
+    font-size: 83px;
+}
+
+#home_section .Home_contant p {
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+#home_section .Home_contant button {
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 25px 25px 25px 25px;
+    padding: 8px 40px;
+}
+
+/*==============================*/
+/*            OUR CHEF          */
+/*==============================*/
+
+#our_chef {
+    background: url(../img/Home_second_img.png);
+    background-size: cover;
+    background-position: center bottom;
+    height: 100vh;
+}
+
+
+#our_chef .chef_title h2 {
+    color: #f64b3c;
+    font-size: 60px;
+    margin-bottom: 40px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+}
+
+#our_chef .chef_title p {
+    width: 70%;
+    margin-left: 15%;
+    font-size: 25px;
+    color: #f64b3c;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 60px;
+}
+
+
+#our_chef .checf_contant h3 {
+    font-size: 30px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    color: #f64b3c;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+#our_chef .checf_contant p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    color: #f64b3c;
+    font-weight: 600;
+}
+
+
+/*==============================*/
+/*        BEST BURGER:          */
+/*==============================*/
+
+#best_burger {
+    background: #f64b3c;
+    height: 100vh;
+}
+
+#best_burger h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Archivo', sans-serif;
+}
+
+#best_burger p {
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+#best_burger button {
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 25px 25px 25px 25px;
+    padding: 8px 40px;
+    color: #f64b3c;
+}
+
+/*==============================*/
+/*        BIG BURGER:           */
+/*==============================*/
+
+#big_burrger {
+    background: url(../img/home_third.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+
+#big_burrger h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Archivo', sans-serif;
+    color: #f64b3c;
+}
+
+#big_burrger p {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f64b3c;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+#big_burrger button {
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 25px 25px 25px 25px;
+    padding: 8px 40px;
+    color: #fff;
+    background: #f64b3c;
+}
+
+/*==============================*/
+/*        STATIC SECION         */
+/*==============================*/
+
+#static {
+    background: #f64b3c;
+    color: #fff;
+    min-height: 100vh;
+}
+
+#static .sata_tic_title h3 {
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+#static .sata_tic_title P {
+    font-size: 30px;
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#static .ring {
+    width: 400px;
+    height: 400px;
+    border: 5px solid #fff;
+}
+
+#static .ring {
+    width: 350px;
+    height: 350px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+#static .ring h1 {
+    font-size: 90px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    margin-top: 23%;
+}
+
+#static .ring p {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*==============================*/
+/*       POPULER PAKAGES        */
+/*==============================*/
+
+#populer_pakeges {
+    background: url(../img/home_four.png);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#populer_pakeges .card {
+    border: none;
+}
+
+#populer_pakeges h4 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: #f64b3c;
+}
+
+#populer_pakeges h3 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #f64b3c;
+}
+
+#populer_pakeges h5 {
+    font-size: 30px;
+    font-family: 'Archivo', sans-serif;
+    margin: 18px 0;
+    font-weight: 700;
+    color: #f64b3c;
+}
+
+#populer_pakeges p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    color: #f64b3c;
+}
+
+#populer_pakeges button {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 25px 25px 25px 25px;
+    padding: 5px 20px;
+    color: #fff;
+    background: #f64b3c;
+    margin: 10px 0;
+}
+
+/*==============================*/
+/*         REVIEW PAGE          */
+/*==============================*/
+
+
+#revicew_page {
+    position: relative;
+    background: url(../img/home_five.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#revicew_page .red_ovelay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(242, 87, 70, 0.8)
+}
+
+#revicew_page .rivew_contant {
+    margin-top: 23%;
+    width: 60%;
+    margin-left: 20%;
+}
+
+#revicew_page .rivew_contant p {
+    font-size: 30px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+}
+
+#revicew_page .rivew_contant h3 {
+    font-family: 'Calistoga', cursive;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+/*==============================*/
+/*        UPDATE SECTION        */
+/*==============================*/
+
+#update {
+    background: url(../img/home_six.png);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center left;
+}
+
+#update .update_title_cntant {
+    width: 80%;
+    margin-left: 15%;
+}
+
+#update h1 {
+    font-size: 60px;
+    color: #f64b3c;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+#update p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    color: #f64b3c;
+}
+
+#update .form {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+#update .input-group-lg > .form-control {
+    padding: .8rem 1rem;
+    border-radius: 25px 0px 0px 25px;
+    border: none;
+    color: #835e3f;
+    font-family: 'Nunito', sans-serif;
+}
+
+#update .input-group-text {
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    background: #f64b3c;
+    border: none;
+    border-radius: 0px 25px 25px 0px;
+    cursor: pointer;
+}
+
+/*==============================*/
+/*        FOOTER SECTION        */
+/*==============================*/
+
+#footer {
+    background: #000;
+    color: #fff;
+}
+
+#footer h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Archivo', sans-serif;
+}
+
+#footer p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+#footer .nav-item .nav-link {
+    color: #fff;
+    padding-left: 0;
+    font-size: 20px;
+}
+
+#footer .social_icons ul li {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#footer .social_icons ul li a {
+    color: #000;
+    font-size: 25px;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
